@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-image: url('hamburger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+}
+#cat{
+    position: absolute;
+    bottom:20px;
+    left: 20px;
+    font-size: 24px;
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 70px;
+    border: 1px solid #fff;
+    position: fixed;
+    width: 100%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+div{
+    padding: 10px;
+}
+.logo{
+    font-size: 20px;
+}
+.about-catering{
+    padding: 50px;
+}
+.menu1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    line-height: 30px;
+}
+.text h1,h4{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.text h1{
+    font-weight: 300;
+    font-size: 28px;
+}
+.text h4{
+    font-weight: 200;
+}
+#seasonal{
+    background-color: grey;
+    padding: 5px;
+}
+#p2{
+    color: grey;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.meal #h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.meal p{
+    color: gray;
+}
+.meal h1{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.contact{
+    padding: 50px;
+}
+#adress{
+    color: turquoise;
+    font-weight: 200;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-transform: capitalize;
+    outline: none;
+    padding: 20px;
+}
+button{
+    width: 12%;
+    background-color: rgba(128, 128, 128, 0.396);
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+footer{
+    background-color:rgba(128, 128, 128, 0.396) ;
+    height: 100px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#foot{
+    text-decoration: underline;
+   
+}
