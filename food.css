@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    /* border: 1px solid #fff; */
+    /* background-color:pink; */
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.menu1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.menu1 img{
+    width: 90%;
+}
+.menu2 img{
+    width: 90%;
+}
+.menu2 h1,p {
+    font-weight: 200;
+    text-align: center;
+    /* padding: 10px; */
+}
+.menu1 h1,p {
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+
+.para{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+   
+    
+    
+   
+}
+.div{
+    width: 40px;
+    /* height: 40px; */
+}
+
+.para .div:hover{
+    /* width: 30px; */
+    /* height:30px; */
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.chef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 h1{
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sec3 h3{
+    
+}
+.text h1{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.text h3{
+    font-style: italic;
+    text-align: center;
+}
+.text{
+    padding-left:  80px;
+    padding-right: 80px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.b1{
+    display: flex;
+    align-items: center;
+}
+.b1 img{
+    width: 30%;
+}
+.p{
+    text-align: left;
+}
+.box-pop{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pop{
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+    color: #fff;
+}
+.pop:hover{
+    background-color: black;
+    cursor: pointer;
+}

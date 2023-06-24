@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url('woods.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.logo{
+    color: #fff;
+    margin-left: 10px;
+}
+.text-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.text-middle h1{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.text-middle h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.trait{
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

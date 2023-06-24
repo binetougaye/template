@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+header{
+    background-image: url('heart-529607_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+}
+.text-middle h1,p{
+    color: burlywood;
+    text-align: center;
+}
+.text-middle p{
+    font-size: 30px;
+  
+}
+.text-middle h1{
+    font-size: 60px;
+}
+.text-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+.sec1{
+    background-color: pink;
+}
+.sec1 h1{
+    color: burlywood;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.text p{
+    color: black;
+    /* text-align: center; */
+    
+}
+.text{
+    /* padding-left: 220px;
+    padding-right: 200px; */
+    width: 65%;
+
+}
+button{
+    background-color: black;
+    color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.sec2{
+    background-image: url('roses.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.sec2 h1,h3 {
+    color: white;
+    text-align: center;
+}
+h3{
+    padding-top: 40px;
+}
+.sec3{
+    background-color: pink;
+}
+.sec3 h1{
+    color: burlywood;
+    padding-top: 60px;
+}
+.when-where p{
+text-align: left;
+color: black;
+} 
+.when-where h1{
+    color: black;
+}
+.when-where{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    line-height: 50px;
+}

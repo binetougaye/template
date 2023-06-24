@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url("mountains2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.text-pic{
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-pic h1{
+    font-weight: bolder;
+    font-size: 180px;
+}
+.text-pic h4{
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+#btn-reserve{
+    position: absolute;
+    bottom: -60px;
+    left: 250px;
+    width: 20%;
+    height: 40px;
+    
+    background-color: black;
+    color: #fff;
+    border: none;
+   
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+}
+.nav-item:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav-item1{
+    color: aqua;
+}
+.logo h5{
+    text-align: center;
+}
+.logo{
+    letter-spacing: 2px;
+}
+.presentation{
+    padding: 80px;
+}
+.presentation .p{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.trait{
+    width: 50px;
+    height: 2px;
+    border: 1px solid;
+    background-color: black;
+    margin-top: 10px;
+}
+.text h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.text p{
+    line-height: 20px;
+}
+#btn-txt{
+    width: 120px;
+    height: 30px;   
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-top: 80px;
+}
+.text{
+    padding: 30px;
+}
+.vente{
+    background-image: url("mountainskies.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.vente h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
