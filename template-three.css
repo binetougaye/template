@@ -2,10 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: 1px solid red;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+img{
+    width: 100%;
 }
 header{
     background-image: url('hamburger.jpg');
@@ -47,9 +51,13 @@ div{
 }
 .menu1{
     display: flex;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
     gap: 20px;
     line-height: 30px;
+}
+.menu-img-container{
+    /* min-width: 400px; */
 }
 .text h1,h4{
     text-align: center;
@@ -62,6 +70,10 @@ div{
 .text h4{
     font-weight: 200;
 }
+.text{
+    min-width: 300px;
+}
+
 #seasonal{
     background-color: grey;
     padding: 5px;
@@ -72,6 +84,7 @@ div{
 .menu2{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     gap: 30px;
 }
 .meal #h1{
@@ -117,5 +130,10 @@ footer{
 }
 #foot{
     text-decoration: underline;
-   
+}
+
+@media screen and (max-width:840px)   {
+    .menu1{
+        flex-direction: column;
+    }
 }

@@ -60,6 +60,7 @@ p{
     width: 1000px;
     height: 500px;
     /* width: 78%; */
+   /* margin-left: 180px; */
 }
 .form h1{
     text-align: center;
@@ -86,45 +87,4 @@ button{
 }
 span{
     text-decoration: underline;
-}
-@media screen and (min-width:200px) and (max-width:1047px) {
-    header{
-        width: 400px;
-    }
-    .portfolio{
-        /* height: 700px; */
-        background-color: blue;
-        width: 400px;
-        
-        margin-top: 10px;
-    }
-    .pictures{
-        padding: 0;
-    }
-   
-    .pictures img{
-       width:400px;
-    }
-    .form{
-        background-color: gray;
-        /* padding-left: 40px; */
-        width: 400px;
-        height: 700px;
-        /* width: 78%; */
-        padding: 0;
-    }
-
-    .container .box{
-        width:250px ;
-    }
-    .barre-navigation{
-        position: absolute;
-        bottom: -5px;
-        left: 15%;
-        border: 1px solid gray;
-        color: white;
-        background-color: gray;
-    }
-   
-    /* iphone se */
 }
