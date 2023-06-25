@@ -48,16 +48,23 @@ p{
     margin-top: 100px;
 }
 .pictures{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     padding: 30px;
 }
+.pictures img{
+    width: 100%;
+}
+.test{
+    max-width: 1000px;
+    margin: auto;
+}
 .form{
     background-color: gray;
     padding: 40px;
-    width: 1000px;
+    /* width: 1000px; */
     height: 500px;
     /* width: 78%; */
    /* margin-left: 180px; */

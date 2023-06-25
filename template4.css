@@ -9,6 +9,10 @@ header{
     background-repeat: no-repeat;
     height: 700px;
     position: relative;
+    /* max-width: 1800px; */
+}
+header img{
+    width: 100%;
 }
 .container{
     display: flex;
@@ -17,7 +21,7 @@ header{
     gap: 200px;
     background-color: #fff;
     height: 60px;
-    width: 100%;
+   width:100%;
     position: fixed;
     z-index: 1000;
 }
@@ -27,6 +31,7 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+   
 }
 .text-pic h1{
     font-weight: bolder;
@@ -72,6 +77,7 @@ header{
 .presentation .p{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 .trait{
@@ -99,14 +105,45 @@ header{
 }
 .text{
     padding: 30px;
+    max-width: 400px;
 }
-.vente{
-    background-image: url("mountainskies.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
+.picture img{
+    width: 100%;
 }
-.vente h1{
-    font-size: 50px;
-    font-weight: bolder;
+header img{
+    width: 100%;
+}
+@media screen and  (max-width:798px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 80px;
+        flex-wrap: wrap;
+    }
+    .text-pic h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    #btn-reserve{
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40%;
+        height: 40px;
+        margin-top: 20px;
+        background-color: black;
+        color: #fff;
+        border: none;
+       
+    }
+    .text-pic h4{
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
 }

@@ -19,19 +19,17 @@ body{
 .menu2{
     display: flex;
     justify-content: center;
+    gap: 5px;
     padding: 40px;
 }
 .menu1{
     display: flex;
     justify-content: center;
+    gap: 5px;
     padding: 40px;
 }
-.menu1 img{
-    width: 90%;
-}
-.menu2 img{
-    width: 90%;
-}
+
+
 .menu2 h1,p {
     font-weight: 200;
     text-align: center;
@@ -72,6 +70,12 @@ body{
 
    
 }
+.menu1 img{
+    width: 100%;
+}
+.menu2 img{
+    width: 100%;
+}
 .chef{
     display: flex;
     justify-content: center;
@@ -107,8 +111,8 @@ body{
     display: flex;
     align-items: center;
 }
-.b1 img{
-    width: 30%;
+.b1  div img{
+    width: 100%;
 }
 .p{
     text-align: left;
@@ -129,4 +133,7 @@ body{
 .pop:hover{
     background-color: black;
     cursor: pointer;
+}
+.chef img{
+    width: 100%;
 }
